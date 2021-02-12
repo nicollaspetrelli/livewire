@@ -13,6 +13,8 @@
 
     @livewire('hello-world')
 
+    @livewire('data-binding')
+
     @livewireScripts
 </body>
 </html>
