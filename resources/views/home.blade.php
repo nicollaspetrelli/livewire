@@ -15,7 +15,9 @@
 
     {{-- @livewire('data-binding') --}}
 
-    @livewire('actions')
+    {{-- @livewire('actions') --}}
+
+    @livewire('life-cycle-hooks')
 
     @livewireScripts
 </body>
