@@ -23,6 +23,11 @@ class ComponentePai extends Component
         });
     }
 
+    public function atualizaFilho()
+    {
+        $this->emit('atualizaFilho');
+    }
+
     public function render()
     {
         return view('livewire.componente-pai');
