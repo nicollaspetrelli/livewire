@@ -17,7 +17,9 @@
 
     {{-- @livewire('actions') --}}
 
-    @livewire('life-cycle-hooks')
+    {{-- @livewire('life-cycle-hooks') --}}
+
+    @livewire('componente-pai')
 
     @livewireScripts
 </body>
