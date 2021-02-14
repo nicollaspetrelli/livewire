@@ -1,6 +1,4 @@
 <div>
-    <p>Componente Filho</p>
-    <p>Olá {{ $user }}</p>
-
-    <input wire:model='user' type="text">
+    {{ $user->name }} : {{ now() }}
+    <button wire:click='$refresh'>Refresh</button>
 </div>

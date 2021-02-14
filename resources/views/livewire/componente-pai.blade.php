@@ -1,8 +1,11 @@
 <div>
-    <h2>Componente Pai</h2>
 
     @foreach($users as $user)
-        @livewire('componente-filho', ['user' => $user], key($user))
+        <div>
+            @livewire('componente-filho', ['user' => $user], key($user->id))
+            <button wire:click='removeUser("{{$user->id}}")'>Remove user</button>
+        </div>
     @endforeach
 
+    <button wire:click='$refresh'>Refresh Geral</button> : {{ now() }}
 </div>
